@@ -1,0 +1,67 @@
+.navbar{
+    background-color:      #fdf7f7 !important;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.nav-link{
+    color:#353535;
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:2;
+}
+
+.content{
+    padding-top:80px;
+}
+.footer{
+    color:white;
+    padding:5px ;
+    text-align: center;
+    background: darkgrey;
+    position:absolute;
+    bottom:0;
+    left: 0;
+    right: 0;
+}
+
+button{
+background-color: #003444;
+box-shadow: none;
+border: 1px solid grey;
+color:#fff;
+padding: 5px ;
+}
+button:hover{
+    background-color: tomato;
+}
+
+.loader{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:999;
+}
+.spinner-border{
+height: 100px;
+width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+input,select{
+height: 35px !important;
+}
+
+
+.nav-item button{
+        color: black !important ;
+}
